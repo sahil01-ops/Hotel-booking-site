@@ -80,15 +80,15 @@ bash
 Copy
 Edit
 cd backend
-Edit application.properties with your DB credentials:
+Edit application.properties with DB credentials:
 
 properties
 
 Copy
 Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+spring.datasource.url=jdbc:mysql://localhost:3306
+spring.datasource.username=root
+spring.datasource.password=password
 Then run:
 
 bash
@@ -102,7 +102,7 @@ Backend (application.properties)
 properties
 Copy
 Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+spring.datasource.url=jdbc:mysql://localhost:3306
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
@@ -150,13 +150,13 @@ Create a new branch:
 bash
 Copy
 Edit
-git checkout -b feature/YourFeature
+git checkout -b feature
 Commit your changes:
 
 bash
 Copy
 Edit
-git commit -m "Add YourFeature"
+git commit -m 
 Push to GitHub:
 
 bash
